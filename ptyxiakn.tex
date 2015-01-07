@@ -1,0 +1,173 @@
+%\documentclass[draft]{book}%%% Use for inspecting Overfull boxes.
+
+\documentclass[twoside,a4paper,leqno]{book}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Currently there are very few unicode math fonts so we load fontspec %%
+%% with the no-math option. This means that math fonts are defined %%%%
+%% by traditional LaTeX means. Here we load the Euler fonts. %%%%%%%%%%%
+%% An alternative is to delete the no-math option and enable %%%%%%%%%%
+%% unicode-math and Cambria Math fonts %%%%%%%%%%%%%%%%%%%%%%%%%
+%% If all else fails, you can always load the "kerkis" package %%%%%%%%%%%%
+%% In any case fontspec with or without the no-math option is needed. %%
+%\usepackage[no-math]{fontspec} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fontspec} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eulervm} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage[bold-style=tex,math-style=iso]{unicode-math} %%%%%%%%%
+%\setmathfont{Cambria Math} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{xltxtra}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Language setup: The proper setup is to use the polyglossia %%%%%%%
+%% package together with setting the main and other languages %%%%%%
+%% and not the xgreek. However, there is still bugs and may %%%%%%%%%
+%% cause problems. So we load xgreek instead but this should %%%%%%%
+%% definitely change in the future. %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xgreek} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{polyglossia} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setmainlanguage{greek} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setotherlanguage{english} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\defaultfontfeatures{Mapping=tex-text}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% We choose our main fonts. Fonts must be installed on the system. %
+%% I.e. in /home/user/.fonts/ for Linux %%%%%%%%%%%%%%%%%%%%%%%%%
+%%       in C:\Windows\Fonts\ for Winows %%%%%%%%%%%%%%%%%%%%%%%%
+%% etc. We should also respect spaces in names. %%%%%%%%%%%%%%%%%%
+%% So Times New Roman is not the same with TimesNewRoman %%%%%%
+%\setmainfont[]{Times New Roman} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setmainfont[]{Cambria} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setsansfont[]{Candara} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setmonofont[]{Consolas} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setmainfont[]{serif} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setmainfont[]{Times New Roman} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setsansfont[]{Times New Roman} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setmonofont[]{Times New Roman} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% If you need reverse search and your pdf viewer support this %%%%%%%
+%% Currently AcrobatReader does not support this. New Linux %%%%%%%%
+%% and Mac software supports this. %%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%\usepackage{pdfsync} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%% Use custom style %%%%%%%%%%%%%%%%
+\usepackage{ptyxiakn}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%% Make index %%%%%%%%%%%%%%%%%%%
+\makeindex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%% Information about this work %%%%%%%%%%%
+\author{Παπαδοπούλου Γεωργία}
+\title{Περί ανέμων και υδάτων}
+\subtitle{A Case Study}
+\projectlevel{Μεταπτυχιακή Εργασία}
+\date{26 Οκτωβρίου 2003}
+\advisor{Όνομα καθηγητή}
+\committeememberone{Καθηγητής 1}
+\committeemembertwo{Καθηγητής 2}
+%% leave empty if less than 3: \committeemembertwo{}
+\committeememberthree{Καθηγητής 3}
+\dedication{Στους γονείς μου!}
+\university{Πανεπιστήμιο Αιγαίου}
+\department{Τμήμα Μαθηματικών}
+\def\master{ΠΡΟΓΡΑΜΜΑ ΜΕΤΑΠΤΥΧΙΑΚΩΝ ΣΠΟΥΔΩΝ}
+\def\mastertitle{ΕΦΑΡΜΟΣΜΕΝΕΣ ΕΠΙΣΤΗΜΕΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑ}
+\separator{,\ }
+%% another separator
+%% \separator{\ $|$\ }
+%% yet another one
+%% \separator{\ \ding{'107}\ }
+%% a simpler separator 
+%% \separator{\ $\cdot$\ }
+\city{Χανιά}
+%%
+%% University logo and scale factor. File must be in eps.
+\universitylogo{%
+\includegraphics[scale=1]{tuc.jpg}% University of the Aegean
+%\includegraphics[scale=.6]{athina.jpg} %%%%%%% University of Athens
+%\includegraphics[scale=.125]{uoc_logo.pdf} %%%%%%%% University of Crete
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%% New theorems %%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{theorem}{Θεώρημα}[section]         
+\newtheorem{lemma}[theorem]{Λήμμα}
+\newtheorem{proposition}[theorem]{Πρόταση}
+\newtheorem{corollary}[theorem]{Πόρισμα}
+\newtheorem{definition}[theorem]{Ορισμός}
+\newtheorem{remark}[theorem]{Παρατήρηση}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{pdfpages}
+
+%%%%%%%%%%%%%%%%%%%%% Document starts %%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%% Start Roman numbering %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\includepdf[pages={1}]{eksofyllo.pdf}
+
+\pagenumbering{roman}
+%\makecover  % Eksofyllo
+%%%%%%%%%%%%%%%%%%% Table of contents %%%%%%%%%%%%
+\tableofcontents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{introduction}
+
+\cleardoublepage
+
+%%%%%%%%%%% Return to normal numbering %%%%%%%%%%%
+\pagenumbering{arabic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Part One %%%%%%%%%%%%%%%%
+\part{Τίτλος πρώτου μέρους}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapter1}
+
+\include{chapter2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Part Two %%%%%%%%%%%%%%%%
+\part{Τίτλος δεύτερου μέρους}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapter3}
+
+\include{chapter4}
+
+%%%%%%%%%%%%%%%% Apendices  %%%%%%%%%%%%%%%%%%
+\appendix
+\include{appendix1}
+\include{appendix2}
+\include{appendix3}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%% Back matter starts %%%%%%%%%%%%%%%
+\backmatter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\printindex
+
+\clearpage
+
+\addcontentsline{toc}{chapter}{Βιβλιογραφία}
+\include{bibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% End of file %%%%%%%%%%%%%%%
+\end{document}
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
