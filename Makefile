@@ -5,12 +5,12 @@ LATEX=xelatex
 all: pdf
 
 
-pdf: eksofyllo.pdf ptyxiakn.tex ptyxiakn.bib introduction.tex chapter1.tex chapter2.tex chapter3.tex 
-	${LATEX} ptyxiakn.tex
-	bibtex ptyxiakn
-	${LATEX} ptyxiakn.tex
-	${LATEX} ptyxiakn.tex
+pdf: eksofyllo.pdf ptyxiakh.tex ptyxiakh.bib introduction.tex chapter1.tex chapter2.tex chapter3.tex 
+	${LATEX} ptyxiakh.tex
+	bibtex ptyxiakh
+	${LATEX} ptyxiakh.tex
+	${LATEX} ptyxiakh.tex
 
 clean:
-	\rm -f ptyxiakn.pdf *.aux *.lo? *.cb* *.toc *.out *.bbl *.blg
+	\rm -f ptyxiakh.pdf *.aux *.lo? *.cb* *.toc *.out *.bbl *.blg
 
