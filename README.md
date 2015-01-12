@@ -1,2 +1,0 @@
-# Metaptixiaki
-H metaptixiaki mou
