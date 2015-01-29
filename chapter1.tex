@@ -102,8 +102,8 @@ D. Rubinfeld (1998).\\\\
 Ως γνωστόν, τα βασικότερα χαρακτηριστικά μιας τυχαίας μεταβλητής $ X $ είναι η
 μέση τιμή $\mu = E \left[  X \right]  $, η διασπορά $ \sigma^2 = V \left[  X \right] $ και όταν έχουμε να κάνουμε με ζεύγη
 τυχαίων μεταβλητών, η μικτή ροπή 2ας τάξης, δηλαδή η συνδιακύμανση
-$\sigma_{xy} = Cov \left(  X , Y \right)  $. Κατ ́ επέκταση, τα βασικότερα χαρακτηριστικά μιας χρονοσειράς
-$ \{ X_t : t \in T \}$ είναι:\\
+$\sigma_{xy} = Cov \left(  X , Y \right)  $. Κατ' επέκταση, τα βασικότερα χαρακτηριστικά μιας χρονοσειράς
+$\: \{ X_t : t \in T \}$ είναι:\\
 \begin{itemize}
 \item H συνάρτηση \textit{μέσης τιμής}
 \item Η συνάρτηση \textit{διασποράς}
@@ -129,7 +129,17 @@ $ \{ X_t : t \in T \}$ είναι:\\
 $$ \gamma\left(t,h \right) = Cov\left(X_t,X_{t+h} \right) =E\left[ \left(X_t-\mu_t \right)\left( X_{t+h}-\mu_{t+h}\right)  \right], \quad t,h \in T   $$ 
 
 Είναι προφανές ότι ισχύει: 
-$\sigma^2\left( t \right)=\gamma\left( t,0\right) =Cov\left(X_t,X_t \right),\quad t,h \in T   $ 
+$\sigma^2\left( t \right)=\gamma\left( t,0\right) =Cov\left(X_t,X_t \right),\quad t,h \in T   $ \\
+Είναι γνωστό επίσης ότι όταν οι διασπορές δύο τυχαίων μεταβλητών Χ και Υ , είναι
+πεπερασμένες, τότε τόσο οι μέσες τιμές αυτών όσο και η συνδιακύμανση αυτών
+είναι πεπερασμένες ποσότητες. Τούτο διότι αφενός πρέπει να έχουμε\\
+$E \left[ \vert X \vert ^2 \right]< ∞ , E \left[ \vert X \vert ^2 \right] < ∞ $, αφού διαφορετικά δεν ορίζονται οι διασπορές, και αφετέρου,
+με εφαρμογή της ανισότητας Cauchy-Schwarz\\
+$$E \left[\vert X \vert\vert Y \vert \right] \leq \sqrt{ E \left[ X^2 \right] E \left[ Y^2 \right]}, $$
+προκύπτει:\\
+$$\vert E \left[ X \right] \vert \leq E \left[\vert X \vert \right] \leq \sqrt{ E \left[ X^ 2 \right]} < ∞ , \quad \vert E \left[ Y \right] \vert \leq E \left[\vert Y \vert\right] \leq \sqrt{ E \left[ Y^ 2 \right]} < ∞  ,$$
+και
+$$ \vert Cov \left( X , Y \right) \vert \leq \sqrt{ V \left[ X \right] V \left[ Y \right]} < ∞ .$$
 
 
 \end{enumerate}
@@ -176,12 +186,16 @@ $ \{ X_t : t \in T \}$
 \begin{itemize}
 \item Η μέση τιμή είναι σταθερή: $  \mu = E \left[ X_t \right] ,\quad t \in T $
 \item $ \gamma(h)=Cov(X_t,X_{t+h}), \quad t,h \in T $
-\end{itemize} 
+\end{itemize}
+ 
 \end{enumerate}
 
-H συνάρτηση \textit{αυτοσυσχέτισης} στάσιμης χρονοσειράς ορίζεται από τη
+H συνάρτηση \textit{αυτοσυσχέτισης} μίας χρονοσειράς ορίζεται από τη
 σχέση:\\
 $$ \rho\left(h \right)=Corr\left( X_0,X_h\right) =\frac{Cov\left( X_0,X_h\right) }{\sqrt{V\left[X_0 \right]V\left[ X_h\right]  }}=\frac{\gamma\left(h \right) }{\gamma\left(0 \right) }, \quad h \in T  $$
+
+Προφανώς η συνάρτηση αυτοσυσχέτησης έχει όλες τις ιδιότητες της συνάρτησης αυτοσυνδιακύμανσης με
+την επιπρόσθετη ιδιότητα  $\: \vert \rho \left( h \right)  \vert \leq 1 \: $,  ως συνέπεια της ανισότητας Cauchy-Schwarz. Συνεπώς, όλες οι δυνατές τιμές της αυτοσυσχέτισης βρίσκονται εντός του διαστήματος $\left[-1,1 \right]$. 
 
 
 
