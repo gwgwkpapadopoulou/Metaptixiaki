@@ -1,0 +1,3862 @@
+# Grace project file
+#
+@version 50122
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Fri Aug  9 11:42:13 2013"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, 0, 1000, 210
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.200000, 0.150000, 1.200000, 0.850000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 3.0
+@    xaxis  label "Time (day)"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 2.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 200
+@    xaxis  tick minor ticks 0
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 2.5
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format decimal
+@    xaxis  ticklabel prec 0
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.500000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 3.0
+@    yaxis  label "Gas rate (m\S3\N/day)"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 2.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 50
+@    yaxis  tick minor ticks 0
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 2.5
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format engineering
+@    yaxis  ticklabel prec 0
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.500000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.25, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 3.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.500000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 3.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "spe10top/agr/spe10TopLayerConstrainedOptimalIuPa_rate_gas.agr"
+@    s0 legend  "I1"
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 2
+@    s1 symbol pattern 1
+@    s1 symbol fill color 2
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 3.0
+@    s1 line color 4
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 2
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "spe10top/agr/spe10TopLayerConstrainedOptimalIuPa_rate_gas.agr"
+@    s1 legend  "I2"
+@    s2 hidden false
+@    s2 type xy
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol color 3
+@    s2 symbol pattern 1
+@    s2 symbol fill color 3
+@    s2 symbol fill pattern 0
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 1
+@    s2 line linewidth 3.0
+@    s2 line color 2
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 3
+@    s2 errorbar pattern 1
+@    s2 errorbar size 1.000000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "spe10top/agr/spe10TopLayerConstrainedOptimalIuPa_rate_gas.agr"
+@    s2 legend  "I3"
+@    s3 hidden false
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 4
+@    s3 symbol pattern 1
+@    s3 symbol fill color 4
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 3.0
+@    s3 line color 15
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 4
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "spe10top/agr/spe10TopLayerConstrainedOptimalIuPa_rate_gas.agr"
+@    s3 legend  "I4"
+@    s4 hidden false
+@    s4 type xy
+@    s4 symbol 0
+@    s4 symbol size 1.000000
+@    s4 symbol color 5
+@    s4 symbol pattern 1
+@    s4 symbol fill color 5
+@    s4 symbol fill pattern 0
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 1
+@    s4 line linestyle 3
+@    s4 line linewidth 3.0
+@    s4 line color 1
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 5
+@    s4 errorbar pattern 1
+@    s4 errorbar size 1.000000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "spe10top/agr/spe10TopLayerConstrainedOptimalIuPa_rate_gas.agr"
+@    s4 legend  "P1"
+@    s5 hidden false
+@    s5 type xy
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol color 6
+@    s5 symbol pattern 1
+@    s5 symbol fill color 6
+@    s5 symbol fill pattern 0
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 0
+@    s5 symbol skip 0
+@    s5 line type 1
+@    s5 line linestyle 3
+@    s5 line linewidth 3.0
+@    s5 line color 4
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 0
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 6
+@    s5 errorbar pattern 1
+@    s5 errorbar size 1.000000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "spe10top/agr/spe10TopLayerConstrainedOptimalIuPa_rate_gas.agr"
+@    s5 legend  "P2"
+@    s6 hidden false
+@    s6 type xy
+@    s6 symbol 0
+@    s6 symbol size 1.000000
+@    s6 symbol color 7
+@    s6 symbol pattern 1
+@    s6 symbol fill color 7
+@    s6 symbol fill pattern 0
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 0
+@    s6 symbol skip 0
+@    s6 line type 1
+@    s6 line linestyle 3
+@    s6 line linewidth 3.0
+@    s6 line color 2
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 0
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 7
+@    s6 errorbar pattern 1
+@    s6 errorbar size 1.000000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "spe10top/agr/spe10TopLayerConstrainedOptimalIuPa_rate_gas.agr"
+@    s6 legend  "P3"
+@    s7 hidden false
+@    s7 type xy
+@    s7 symbol 0
+@    s7 symbol size 1.000000
+@    s7 symbol color 8
+@    s7 symbol pattern 1
+@    s7 symbol fill color 8
+@    s7 symbol fill pattern 0
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 0
+@    s7 symbol skip 0
+@    s7 line type 1
+@    s7 line linestyle 3
+@    s7 line linewidth 3.0
+@    s7 line color 15
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 0
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 8
+@    s7 errorbar pattern 1
+@    s7 errorbar size 1.000000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "spe10top/agr/spe10TopLayerConstrainedOptimalIuPa_rate_gas.agr"
+@    s7 legend  "P4"
+@target G0.S0
+@type xy
+0 0
+5 0
+5 0
+10 0
+10 0
+15 0
+15 0
+20 0
+20 0
+25 0
+25 0
+30 0
+30 0
+35 0
+35 0
+40 0
+40 0
+45 0
+45 0
+50 0
+50 0
+55 0
+55 0
+60 0
+60 0
+65 0
+65 0
+70 0
+70 0
+75 0
+75 0
+80 0
+80 0
+85 0
+85 0
+90 0
+90 0
+95 0
+95 0
+100 0
+100 27.2916
+105 27.2916
+105 19.8561
+110 19.8561
+110 17.636
+115 17.636
+115 17.0233
+120 17.0233
+120 17.1156
+125 17.1156
+125 16.5721
+130 16.5721
+130 16.3764
+135 16.3764
+135 16.5462
+140 16.5462
+140 17.012
+145 17.012
+145 17.143
+150 17.143
+150 17.4735
+155 17.4735
+155 17.725
+160 17.725
+160 17.8673
+165 17.8673
+165 18.2215
+170 18.2215
+170 18.7174
+175 18.7174
+175 19.2933
+180 19.2933
+180 19.7867
+185 19.7867
+185 20.2076
+190 20.2076
+190 20.5611
+195 20.5611
+195 20.8794
+200 20.8794
+200 20.1135
+205 20.1135
+205 18.9515
+210 18.9515
+210 18.1781
+215 18.1781
+215 17.6422
+220 17.6422
+220 17.257
+225 17.257
+225 17.0154
+230 17.0154
+230 16.8651
+235 16.8651
+235 16.7603
+240 16.7603
+240 16.7132
+245 16.7132
+245 16.7101
+250 16.7101
+250 16.7603
+255 16.7603
+255 16.8153
+260 16.8153
+260 16.8753
+265 16.8753
+265 16.9665
+270 16.9665
+270 17.0591
+275 17.0591
+275 17.1643
+280 17.1643
+280 17.2644
+285 17.2644
+285 17.3714
+290 17.3714
+290 17.4709
+295 17.4709
+295 17.5505
+300 17.5505
+300 17.2793
+305 17.2793
+305 16.9222
+310 16.9222
+310 16.5874
+315 16.5874
+315 16.291
+320 16.291
+320 16.0217
+325 16.0217
+325 15.7864
+330 15.7864
+330 15.5909
+335 15.5909
+335 15.4233
+340 15.4233
+340 15.2747
+345 15.2747
+345 15.1412
+350 15.1412
+350 15.0246
+355 15.0246
+355 14.9291
+360 14.9291
+360 14.8465
+365 14.8465
+365 14.7611
+370 14.7611
+370 14.67
+375 14.67
+375 14.5876
+380 14.5876
+380 14.526
+385 14.526
+385 14.4701
+390 14.4701
+390 14.4295
+395 14.4295
+395 14.4023
+400 14.4023
+400 4.42822
+405 4.42822
+405 7.87609
+410 7.87609
+410 9.26987
+415 9.26987
+415 10.0297
+420 10.0297
+420 10.4701
+425 10.4701
+425 10.726
+430 10.726
+430 10.8692
+435 10.8692
+435 10.9367
+440 10.9367
+440 10.9544
+445 10.9544
+445 10.9338
+450 10.9338
+450 10.8916
+455 10.8916
+455 10.8345
+460 10.8345
+460 10.7688
+465 10.7688
+465 10.7021
+470 10.7021
+470 10.6423
+475 10.6423
+475 10.5877
+480 10.5877
+480 10.5351
+485 10.5351
+485 10.4892
+490 10.4892
+490 10.4414
+495 10.4414
+495 10.3801
+500 10.3801
+500 0
+505 0
+505 0
+510 0
+510 0
+515 0
+515 0
+520 0
+520 0
+525 0
+525 0
+530 0
+530 0
+535 0
+535 0
+540 0
+540 0
+545 0
+545 0
+550 0
+550 0
+555 0
+555 0
+560 0
+560 0
+565 0
+565 0
+570 0
+570 0
+575 0
+575 0
+580 0
+580 0
+585 0
+585 0
+590 0
+590 0
+595 0
+595 0
+600 0
+600 0
+605 0
+605 0
+610 0
+610 0
+615 0
+615 0
+620 0
+620 0
+625 0
+625 0
+630 0
+630 0
+635 0
+635 0
+640 0
+640 0
+645 0
+645 0
+650 0
+650 0
+655 0
+655 0
+660 0
+660 0
+665 0
+665 0
+670 0
+670 0
+675 0
+675 0
+680 0
+680 0
+685 0
+685 0
+690 0
+690 0
+695 0
+695 0
+700 0
+700 0
+705 0
+705 0
+710 0
+710 0
+715 0
+715 0
+720 0
+720 0
+725 0
+725 0
+730 0
+730 0
+735 0
+735 0
+740 0
+740 0
+745 0
+745 0
+750 0
+750 0
+755 0
+755 0
+760 0
+760 0.284332
+765 0.284332
+765 0.513562
+770 0.513562
+770 0.65954
+775 0.65954
+775 0.766806
+780 0.766806
+780 0.854443
+785 0.854443
+785 0.927502
+790 0.927502
+790 0.988598
+795 0.988598
+795 1.04078
+800 1.04078
+800 45.5014
+805 45.5014
+805 31.3739
+810 31.3739
+810 26.8346
+815 26.8346
+815 24.7953
+820 24.7953
+820 23.7302
+825 23.7302
+825 23.1589
+830 23.1589
+830 22.8962
+835 22.8962
+835 22.8372
+840 22.8372
+840 22.8276
+845 22.8276
+845 22.8434
+850 22.8434
+850 22.8737
+855 22.8737
+855 22.9224
+860 22.9224
+860 22.9776
+865 22.9776
+865 23.053
+870 23.053
+870 23.1332
+875 23.1332
+875 23.2168
+880 23.2168
+880 23.2994
+885 23.2994
+885 23.3717
+890 23.3717
+890 23.4498
+895 23.4498
+895 23.5228
+900 23.5228
+900 23.6087
+905 23.6087
+905 23.7007
+910 23.7007
+910 23.7911
+915 23.7911
+915 23.8834
+920 23.8834
+920 23.9789
+925 23.9789
+925 24.0754
+930 24.0754
+930 24.1644
+935 24.1644
+935 24.2545
+940 24.2545
+940 24.3512
+945 24.3512
+945 24.4563
+950 24.4563
+950 24.5642
+955 24.5642
+955 24.6762
+960 24.6762
+960 24.784
+965 24.784
+965 24.8853
+970 24.8853
+970 24.9891
+975 24.9891
+975 25.0952
+980 25.0952
+980 25.1965
+985 25.1965
+985 25.2974
+990 25.2974
+990 25.4021
+995 25.4021
+995 25.5035
+1000 25.5035
+&
+@target G0.S1
+@type xy
+0 0
+5 0
+5 0
+10 0
+10 0
+15 0
+15 0
+20 0
+20 0
+25 0
+25 0
+30 0
+30 0
+35 0
+35 0
+40 0
+40 0
+45 0
+45 0
+50 0
+50 0
+55 0
+55 0
+60 0
+60 0
+65 0
+65 0
+70 0
+70 0
+75 0
+75 0
+80 0
+80 0
+85 0
+85 0
+90 0
+90 0
+95 0
+95 0
+100 0
+100 0
+105 0
+105 0
+110 0
+110 0
+115 0
+115 0
+120 0
+120 0
+125 0
+125 0
+130 0
+130 0
+135 0
+135 0
+140 0
+140 0
+145 0
+145 0
+150 0
+150 0
+155 0
+155 0
+160 0
+160 0
+165 0
+165 0
+170 0
+170 0
+175 0
+175 0
+180 0
+180 0
+185 0
+185 0
+190 0
+190 0
+195 0
+195 0
+200 0
+200 20.7279
+205 20.7279
+205 14.1483
+210 14.1483
+210 13.0073
+215 13.0073
+215 12.5827
+220 12.5827
+220 12.4992
+225 12.4992
+225 12.7774
+230 12.7774
+230 13.0711
+235 13.0711
+235 13.6204
+240 13.6204
+240 14.0673
+245 14.0673
+245 14.3138
+250 14.3138
+250 14.7803
+255 14.7803
+255 15.1357
+260 15.1357
+260 15.5672
+265 15.5672
+265 15.8582
+270 15.8582
+270 16.345
+275 16.345
+275 16.9735
+280 16.9735
+280 17.4106
+285 17.4106
+285 17.5973
+290 17.5973
+290 17.8933
+295 17.8933
+295 18.1674
+300 18.1674
+300 69.8572
+305 69.8572
+305 43.5955
+310 43.5955
+310 37.9399
+315 37.9399
+315 35.7204
+320 35.7204
+320 34.2954
+325 34.2954
+325 33.4064
+330 33.4064
+330 32.8651
+335 32.8651
+335 32.4561
+340 32.4561
+340 32.0104
+345 32.0104
+345 31.7119
+350 31.7119
+350 31.3541
+355 31.3541
+355 31.2239
+360 31.2239
+360 31.2616
+365 31.2616
+365 31.5479
+370 31.5479
+370 31.6302
+375 31.6302
+375 31.4522
+380 31.4522
+380 31.1404
+385 31.1404
+385 30.9285
+390 30.9285
+390 30.714
+395 30.714
+395 30.5902
+400 30.5902
+400 41.338
+405 41.338
+405 36.0485
+410 36.0485
+410 34.1424
+415 34.1424
+415 33.3328
+420 33.3328
+420 32.9638
+425 32.9638
+425 32.8291
+430 32.8291
+430 32.894
+435 32.894
+435 33.0773
+440 33.0773
+440 33.2906
+445 33.2906
+445 33.5111
+450 33.5111
+450 33.7796
+455 33.7796
+455 34.0457
+460 34.0457
+460 34.3093
+465 34.3093
+465 34.5475
+470 34.5475
+470 34.8223
+475 34.8223
+475 35.0835
+480 35.0835
+480 35.3009
+485 35.3009
+485 35.4889
+490 35.4889
+490 35.6395
+495 35.6395
+495 35.7798
+500 35.7798
+500 36.0424
+505 36.0424
+505 35.9962
+510 35.9962
+510 35.7555
+515 35.7555
+515 35.5108
+520 35.5108
+520 35.378
+525 35.378
+525 35.345
+530 35.345
+530 35.3869
+535 35.3869
+535 35.4704
+540 35.4704
+540 35.5926
+545 35.5926
+545 35.7429
+550 35.7429
+550 35.9294
+555 35.9294
+555 36.1351
+560 36.1351
+560 36.3676
+565 36.3676
+565 36.6223
+570 36.6223
+570 36.8873
+575 36.8873
+575 37.1623
+580 37.1623
+580 37.4284
+585 37.4284
+585 37.7059
+590 37.7059
+590 37.9923
+595 37.9923
+595 38.2596
+600 38.2596
+600 39.9961
+605 39.9961
+605 41.4827
+610 41.4827
+610 42.5511
+615 42.5511
+615 43.3286
+620 43.3286
+620 43.9508
+625 43.9508
+625 44.4652
+630 44.4652
+630 44.9447
+635 44.9447
+635 45.4018
+640 45.4018
+640 45.8513
+645 45.8513
+645 46.3004
+650 46.3004
+650 46.7537
+655 46.7537
+655 47.2049
+660 47.2049
+660 47.6699
+665 47.6699
+665 48.1765
+670 48.1765
+670 48.709
+675 48.709
+675 49.2636
+680 49.2636
+680 49.8162
+685 49.8162
+685 50.3578
+690 50.3578
+690 50.8614
+695 50.8614
+695 51.3063
+700 51.3063
+700 53.8975
+705 53.8975
+705 56.0499
+710 56.0499
+710 57.6274
+715 57.6274
+715 58.8388
+720 58.8388
+720 59.8212
+725 59.8212
+725 60.6574
+730 60.6574
+730 61.379
+735 61.379
+735 62.0099
+740 62.0099
+740 62.5754
+745 62.5754
+745 63.0776
+750 63.0776
+750 63.5533
+755 63.5533
+755 64.0022
+760 64.0022
+760 64.4139
+765 64.4139
+765 64.7711
+770 64.7711
+770 65.0807
+775 65.0807
+775 65.3456
+780 65.3456
+780 65.5753
+785 65.5753
+785 65.7716
+790 65.7716
+790 65.9331
+795 65.9331
+795 66.0927
+800 66.0927
+800 66.9097
+805 66.9097
+805 67.5674
+810 67.5674
+810 67.9836
+815 67.9836
+815 68.2071
+820 68.2071
+820 68.3016
+825 68.3016
+825 68.3075
+830 68.3075
+830 68.2746
+835 68.2746
+835 68.2294
+840 68.2294
+840 68.1851
+845 68.1851
+845 68.155
+850 68.155
+850 68.1453
+855 68.1453
+855 68.1598
+860 68.1598
+860 68.1929
+865 68.1929
+865 68.2418
+870 68.2418
+870 68.3009
+875 68.3009
+875 68.3713
+880 68.3713
+880 68.4529
+885 68.4529
+885 68.542
+890 68.542
+890 68.642
+895 68.642
+895 68.7529
+900 68.7529
+900 68.8786
+905 68.8786
+905 69.0103
+910 69.0103
+910 69.1465
+915 69.1465
+915 69.2879
+920 69.2879
+920 69.4293
+925 69.4293
+925 69.5746
+930 69.5746
+930 69.7229
+935 69.7229
+935 69.8689
+940 69.8689
+940 70.0199
+945 70.0199
+945 70.1728
+950 70.1728
+950 70.3311
+955 70.3311
+955 70.4951
+960 70.4951
+960 70.6592
+965 70.6592
+965 70.8224
+970 70.8224
+970 70.9849
+975 70.9849
+975 71.1535
+980 71.1535
+980 71.326
+985 71.326
+985 71.5083
+990 71.5083
+990 71.7005
+995 71.7005
+995 71.8901
+1000 71.8901
+&
+@target G0.S2
+@type xy
+0 8.34105
+5 8.34105
+5 6.83475
+10 6.83475
+10 8.15912
+15 8.15912
+15 9.44635
+20 9.44635
+20 10.3473
+25 10.3473
+25 11.1997
+30 11.1997
+30 11.8965
+35 11.8965
+35 12.2328
+40 12.2328
+40 12.45
+45 12.45
+45 12.6308
+50 12.6308
+50 12.7217
+55 12.7217
+55 12.799
+60 12.799
+60 12.9096
+65 12.9096
+65 12.9985
+70 12.9985
+70 13.0796
+75 13.0796
+75 13.19
+80 13.19
+80 13.2405
+85 13.2405
+85 13.3067
+90 13.3067
+90 13.3536
+95 13.3536
+95 13.3635
+100 13.3635
+100 13.0174
+105 13.0174
+105 12.471
+110 12.471
+110 11.9083
+115 11.9083
+115 11.3873
+120 11.3873
+120 10.9398
+125 10.9398
+125 10.5619
+130 10.5619
+130 10.2401
+135 10.2401
+135 9.96525
+140 9.96525
+140 9.71824
+145 9.71824
+145 9.50674
+150 9.50674
+150 9.32548
+155 9.32548
+155 9.16642
+160 9.16642
+160 9.02335
+165 9.02335
+165 8.90219
+170 8.90219
+170 8.79299
+175 8.79299
+175 8.68817
+180 8.68817
+180 8.59991
+185 8.59991
+185 8.52288
+190 8.52288
+190 8.45355
+195 8.45355
+195 8.39599
+200 8.39599
+200 8.14544
+205 8.14544
+205 7.79188
+210 7.79188
+210 7.42889
+215 7.42889
+215 7.09891
+220 7.09891
+220 6.82354
+225 6.82354
+225 6.59843
+230 6.59843
+230 6.4186
+235 6.4186
+235 6.27872
+240 6.27872
+240 6.17023
+245 6.17023
+245 6.08682
+250 6.08682
+250 6.02416
+255 6.02416
+255 5.97938
+260 5.97938
+260 5.94876
+265 5.94876
+265 5.9284
+270 5.9284
+270 5.91501
+275 5.91501
+275 5.90481
+280 5.90481
+280 5.90057
+285 5.90057
+285 5.89957
+290 5.89957
+290 5.90106
+295 5.90106
+295 5.90322
+300 5.90322
+300 5.75029
+305 5.75029
+305 5.50533
+310 5.50533
+310 5.24234
+315 5.24234
+315 4.99516
+320 4.99516
+320 4.77622
+325 4.77622
+325 4.58709
+330 4.58709
+330 4.4261
+335 4.4261
+335 4.28806
+340 4.28806
+340 4.16879
+345 4.16879
+345 4.06636
+350 4.06636
+350 3.98113
+355 3.98113
+355 3.90991
+360 3.90991
+360 3.84877
+365 3.84877
+365 3.79896
+370 3.79896
+370 3.75435
+375 3.75435
+375 3.71137
+380 3.71137
+380 3.67201
+385 3.67201
+385 3.63324
+390 3.63324
+390 3.5966
+395 3.5966
+395 3.56302
+400 3.56302
+400 3.55707
+405 3.55707
+405 3.57802
+410 3.57802
+410 3.60811
+415 3.60811
+415 3.64048
+420 3.64048
+420 3.67191
+425 3.67191
+425 3.69566
+430 3.69566
+430 3.71301
+435 3.71301
+435 3.72529
+440 3.72529
+440 3.73173
+445 3.73173
+445 3.73136
+450 3.73136
+450 3.72863
+455 3.72863
+455 3.72565
+460 3.72565
+460 3.71865
+465 3.71865
+465 3.70893
+470 3.70893
+470 3.70117
+475 3.70117
+475 3.69542
+480 3.69542
+480 3.68801
+485 3.68801
+485 3.68155
+490 3.68155
+490 3.67294
+495 3.67294
+495 3.66196
+500 3.66196
+500 3.702
+505 3.702
+505 3.7918
+510 3.7918
+510 3.90952
+515 3.90952
+515 4.03856
+520 4.03856
+520 4.17196
+525 4.17196
+525 4.30046
+530 4.30046
+530 4.42272
+535 4.42272
+535 4.53124
+540 4.53124
+540 4.62418
+545 4.62418
+545 4.70428
+550 4.70428
+550 4.77407
+555 4.77407
+555 4.83446
+560 4.83446
+560 4.88884
+565 4.88884
+565 4.9377
+570 4.9377
+570 4.97815
+575 4.97815
+575 5.01118
+580 5.01118
+580 5.03764
+585 5.03764
+585 5.05797
+590 5.05797
+590 5.07445
+595 5.07445
+595 5.08713
+600 5.08713
+600 5.11289
+605 5.11289
+605 5.15287
+610 5.15287
+610 5.20074
+615 5.20074
+615 5.25041
+620 5.25041
+620 5.29742
+625 5.29742
+625 5.34092
+630 5.34092
+630 5.38051
+635 5.38051
+635 5.41521
+640 5.41521
+640 5.44642
+645 5.44642
+645 5.47665
+650 5.47665
+650 5.50462
+655 5.50462
+655 5.52959
+660 5.52959
+660 5.55377
+665 5.55377
+665 5.57743
+670 5.57743
+670 5.60145
+675 5.60145
+675 5.625
+680 5.625
+680 5.64861
+685 5.64861
+685 5.67227
+690 5.67227
+690 5.69562
+695 5.69562
+695 5.71929
+700 5.71929
+700 5.7721
+705 5.7721
+705 5.85436
+710 5.85436
+710 5.95401
+715 5.95401
+715 6.06085
+720 6.06085
+720 6.16729
+725 6.16729
+725 6.27033
+730 6.27033
+730 6.36797
+735 6.36797
+735 6.45911
+740 6.45911
+740 6.54341
+745 6.54341
+745 6.62107
+750 6.62107
+750 6.69276
+755 6.69276
+755 6.75871
+760 6.75871
+760 6.81888
+765 6.81888
+765 6.87275
+770 6.87275
+770 6.92071
+775 6.92071
+775 6.96333
+780 6.96333
+780 7.0008
+785 7.0008
+785 7.03419
+790 7.03419
+790 7.06363
+795 7.06363
+795 7.0898
+800 7.0898
+800 7.06489
+805 7.06489
+805 6.97763
+810 6.97763
+810 6.84723
+815 6.84723
+815 6.69838
+820 6.69838
+820 6.54905
+825 6.54905
+825 6.41097
+830 6.41097
+830 6.28847
+835 6.28847
+835 6.18262
+840 6.18262
+840 6.09373
+845 6.09373
+845 6.01959
+850 6.01959
+850 5.95899
+855 5.95899
+855 5.91001
+860 5.91001
+860 5.87216
+865 5.87216
+865 5.84377
+870 5.84377
+870 5.82268
+875 5.82268
+875 5.80734
+880 5.80734
+880 5.79762
+885 5.79762
+885 5.79143
+890 5.79143
+890 5.78768
+895 5.78768
+895 5.78607
+900 5.78607
+900 5.78636
+905 5.78636
+905 5.78849
+910 5.78849
+910 5.79213
+915 5.79213
+915 5.79677
+920 5.79677
+920 5.80166
+925 5.80166
+925 5.80734
+930 5.80734
+930 5.81405
+935 5.81405
+935 5.82216
+940 5.82216
+940 5.83078
+945 5.83078
+945 5.84011
+950 5.84011
+950 5.85082
+955 5.85082
+955 5.86225
+960 5.86225
+960 5.87438
+965 5.87438
+965 5.88769
+970 5.88769
+970 5.90195
+975 5.90195
+975 5.91714
+980 5.91714
+980 5.93317
+985 5.93317
+985 5.94993
+990 5.94993
+990 5.96775
+995 5.96775
+995 5.98586
+1000 5.98586
+&
+@target G0.S3
+@type xy
+0 22.5181
+5 22.5181
+5 18.8795
+10 18.8795
+10 18.7279
+15 18.7279
+15 18.5812
+20 18.5812
+20 18.7414
+25 18.7414
+25 18.4572
+30 18.4572
+30 18.7602
+35 18.7602
+35 18.8296
+40 18.8296
+40 18.6898
+45 18.6898
+45 18.4969
+50 18.4969
+50 18.3257
+55 18.3257
+55 18.32
+60 18.32
+60 18.4189
+65 18.4189
+65 18.4932
+70 18.4932
+70 18.4398
+75 18.4398
+75 18.4231
+80 18.4231
+80 18.4749
+85 18.4749
+85 18.5415
+90 18.5415
+90 18.6475
+95 18.6475
+95 18.7927
+100 18.7927
+100 18.8615
+105 18.8615
+105 18.9019
+110 18.9019
+110 18.9369
+115 18.9369
+115 18.9028
+120 18.9028
+120 18.8458
+125 18.8458
+125 18.775
+130 18.775
+130 18.69
+135 18.69
+135 18.5951
+140 18.5951
+140 18.503
+145 18.503
+145 18.4428
+150 18.4428
+150 18.3978
+155 18.3978
+155 18.3934
+160 18.3934
+160 18.4087
+165 18.4087
+165 18.4253
+170 18.4253
+170 18.468
+175 18.468
+175 18.5218
+180 18.5218
+180 18.571
+185 18.571
+185 18.6144
+190 18.6144
+190 18.6657
+195 18.6657
+195 18.7177
+200 18.7177
+200 0
+205 0
+205 0
+210 0
+210 0
+215 0
+215 0
+220 0
+220 0
+225 0
+225 0
+230 0
+230 0
+235 0
+235 0
+240 0
+240 0
+245 0
+245 0
+250 0
+250 0
+255 0
+255 0
+260 0
+260 0
+265 0
+265 0
+270 0
+270 0
+275 0
+275 0
+280 0
+280 0
+285 0
+285 0
+290 0
+290 0
+295 0
+295 0
+300 0
+300 0
+305 0
+305 0
+310 0
+310 0
+315 0
+315 0
+320 0
+320 0
+325 0
+325 0
+330 0
+330 0
+335 0
+335 0
+340 0
+340 0
+345 0
+345 0
+350 0
+350 0
+355 0
+355 0
+360 0
+360 0
+365 0
+365 0
+370 0
+370 0
+375 0
+375 0
+380 0
+380 0
+385 0
+385 0
+390 0
+390 0
+395 0
+395 0
+400 0
+400 0
+405 0
+405 0
+410 0
+410 0
+415 0
+415 0
+420 0
+420 0
+425 0
+425 0
+430 0
+430 0
+435 0
+435 0
+440 0
+440 0
+445 0
+445 0
+450 0
+450 0
+455 0
+455 0
+460 0
+460 0
+465 0
+465 0
+470 0
+470 0
+475 0
+475 0
+480 0
+480 0
+485 0
+485 0
+490 0
+490 0
+495 0
+495 0
+500 0
+500 24.1706
+505 24.1706
+505 16.0795
+510 16.0795
+510 12.6231
+515 12.6231
+515 10.7216
+520 10.7216
+520 9.53592
+525 9.53592
+525 8.71892
+530 8.71892
+530 8.12621
+535 8.12621
+535 7.67483
+540 7.67483
+540 7.34182
+545 7.34182
+545 7.09018
+550 7.09018
+550 6.8962
+555 6.8962
+555 6.76021
+560 6.76021
+560 6.65481
+565 6.65481
+565 6.58237
+570 6.58237
+570 6.54703
+575 6.54703
+575 6.53848
+580 6.53848
+580 6.53124
+585 6.53124
+585 6.52086
+590 6.52086
+590 6.50358
+595 6.50358
+595 6.48727
+600 6.48727
+600 6.4694
+605 6.4694
+605 6.43247
+610 6.43247
+610 6.38493
+615 6.38493
+615 6.34226
+620 6.34226
+620 6.31138
+625 6.31138
+625 6.2929
+630 6.2929
+630 6.29408
+635 6.29408
+635 6.29953
+640 6.29953
+640 6.30801
+645 6.30801
+645 6.31666
+650 6.31666
+650 6.33052
+655 6.33052
+655 6.35931
+660 6.35931
+660 6.39118
+665 6.39118
+665 6.42382
+670 6.42382
+670 6.45575
+675 6.45575
+675 6.48924
+680 6.48924
+680 6.52568
+685 6.52568
+685 6.56402
+690 6.56402
+690 6.59752
+695 6.59752
+695 6.62787
+700 6.62787
+700 6.6544
+705 6.6544
+705 6.67272
+710 6.67272
+710 6.69151
+715 6.69151
+715 6.71271
+720 6.71271
+720 6.73467
+725 6.73467
+725 6.74998
+730 6.74998
+730 6.76992
+735 6.76992
+735 6.79104
+740 6.79104
+740 6.81002
+745 6.81002
+745 6.83005
+750 6.83005
+750 6.84947
+755 6.84947
+755 6.86922
+760 6.86922
+760 6.89501
+765 6.89501
+765 6.92447
+770 6.92447
+770 6.95209
+775 6.95209
+775 6.97629
+780 6.97629
+780 7.00093
+785 7.00093
+785 7.02076
+790 7.02076
+790 7.04302
+795 7.04302
+795 7.06523
+800 7.06523
+800 7.19496
+805 7.19496
+805 7.42506
+810 7.42506
+810 7.69547
+815 7.69547
+815 7.97265
+820 7.97265
+820 8.2326
+825 8.2326
+825 8.46665
+830 8.46665
+830 8.68214
+835 8.68214
+835 8.88023
+840 8.88023
+840 9.05806
+845 9.05806
+845 9.22071
+850 9.22071
+850 9.37229
+855 9.37229
+855 9.50771
+860 9.50771
+860 9.62979
+865 9.62979
+865 9.74587
+870 9.74587
+870 9.85048
+875 9.85048
+875 9.94648
+880 9.94648
+880 10.0377
+885 10.0377
+885 10.1279
+890 10.1279
+890 10.2169
+895 10.2169
+895 10.3042
+900 10.3042
+900 10.3861
+905 10.3861
+905 10.4637
+910 10.4637
+910 10.5427
+915 10.5427
+915 10.6178
+920 10.6178
+920 10.6898
+925 10.6898
+925 10.7589
+930 10.7589
+930 10.8273
+935 10.8273
+935 10.8952
+940 10.8952
+940 10.9641
+945 10.9641
+945 11.0304
+950 11.0304
+950 11.0937
+955 11.0937
+955 11.1583
+960 11.1583
+960 11.2211
+965 11.2211
+965 11.2828
+970 11.2828
+970 11.3406
+975 11.3406
+975 11.4003
+980 11.4003
+980 11.4616
+985 11.4616
+985 11.5217
+990 11.5217
+990 11.5803
+995 11.5803
+995 11.6361
+1000 11.6361
+&
+@target G0.S4
+@type xy
+0 0.156547
+5 0.156547
+5 0.117565
+10 0.117565
+10 0.104177
+15 0.104177
+15 0.098643
+20 0.098643
+20 0.097611
+25 0.097611
+25 0.099072
+30 0.099072
+30 0.101995
+35 0.101995
+35 0.10502
+40 0.10502
+40 0.108117
+45 0.108117
+45 0.11136
+50 0.11136
+50 0.114387
+55 0.114387
+55 0.117022
+60 0.117022
+60 0.119268
+65 0.119268
+65 0.121439
+70 0.121439
+70 0.123487
+75 0.123487
+75 0.125154
+80 0.125154
+80 0.126578
+85 0.126578
+85 0.127738
+90 0.127738
+90 0.128808
+95 0.128808
+95 0.129894
+100 0.129894
+100 0.026049
+105 0.026049
+105 0.032595
+110 0.032595
+110 0.035053
+115 0.035053
+115 0.036201
+120 0.036201
+120 0.036851
+125 0.036851
+125 0.03731
+130 0.03731
+130 0.03766
+135 0.03766
+135 0.037948
+140 0.037948
+140 0.038206
+145 0.038206
+145 0.038469
+150 0.038469
+150 0.038749
+155 0.038749
+155 0.039076
+160 0.039076
+160 0.039472
+165 0.039472
+165 0.039955
+170 0.039955
+170 0.040554
+175 0.040554
+175 0.041297
+180 0.041297
+180 0.042204
+185 0.042204
+185 0.043292
+190 0.043292
+190 0.044571
+195 0.044571
+195 0.046047
+200 0.046047
+200 0.169851
+205 0.169851
+205 0.17035
+210 0.17035
+210 0.173828
+215 0.173828
+215 0.177679
+220 0.177679
+220 0.181688
+225 0.181688
+225 0.185724
+230 0.185724
+230 0.189827
+235 0.189827
+235 0.194039
+240 0.194039
+240 0.198375
+245 0.198375
+245 0.202845
+250 0.202845
+250 0.207506
+255 0.207506
+255 0.212404
+260 0.212404
+260 0.217562
+265 0.217562
+265 0.222956
+270 0.222956
+270 0.228677
+275 0.228677
+275 0.234821
+280 0.234821
+280 0.241439
+285 0.241439
+285 0.248652
+290 0.248652
+290 0.256562
+295 0.256562
+295 0.265351
+300 0.265351
+300 0
+305 0
+305 0.000575
+310 0.000575
+310 0.008401
+315 0.008401
+315 0.01722
+320 0.01722
+320 0.027419
+325 0.027419
+325 0.039276
+330 0.039276
+330 0.053077
+335 0.053077
+335 0.069154
+340 0.069154
+340 0.087859
+345 0.087859
+345 0.109602
+350 0.109602
+350 0.134851
+355 0.134851
+355 0.163892
+360 0.163892
+360 0.197347
+365 0.197347
+365 0.235617
+370 0.235617
+370 0.278375
+375 0.278375
+375 0.326508
+380 0.326508
+380 0.387015
+385 0.387015
+385 0.455046
+390 0.455046
+390 0.531615
+395 0.531615
+395 0.60881
+400 0.60881
+400 0
+405 0
+405 0.047167
+410 0.047167
+410 0.091702
+415 0.091702
+415 0.134312
+420 0.134312
+420 0.182431
+425 0.182431
+425 0.230306
+430 0.230306
+430 0.278673
+435 0.278673
+435 0.323028
+440 0.323028
+440 0.369511
+445 0.369511
+445 0.415193
+450 0.415193
+450 0.459798
+455 0.459798
+455 0.511466
+460 0.511466
+460 0.574521
+465 0.574521
+465 0.643548
+470 0.643548
+470 0.703473
+475 0.703473
+475 0.760185
+480 0.760185
+480 0.816912
+485 0.816912
+485 0.876802
+490 0.876802
+490 0.944337
+495 0.944337
+495 1.00668
+500 1.00668
+500 3.90222
+505 3.90222
+505 3.36365
+510 3.36365
+510 3.27069
+515 3.27069
+515 3.25715
+520 3.25715
+520 3.26991
+525 3.26991
+525 3.28855
+530 3.28855
+530 3.29983
+535 3.29983
+535 3.29941
+540 3.29941
+540 3.29407
+545 3.29407
+545 3.2793
+550 3.2793
+550 3.25906
+555 3.25906
+555 3.23532
+560 3.23532
+560 3.20894
+565 3.20894
+565 3.18087
+570 3.18087
+570 3.15185
+575 3.15185
+575 3.1237
+580 3.1237
+580 3.10131
+585 3.10131
+585 3.08912
+590 3.08912
+590 3.09002
+595 3.09002
+595 3.10252
+600 3.10252
+600 3.46874
+605 3.46874
+605 3.42575
+610 3.42575
+610 3.43574
+615 3.43574
+615 3.46408
+620 3.46408
+620 3.50607
+625 3.50607
+625 3.5601
+630 3.5601
+630 3.62559
+635 3.62559
+635 3.70068
+640 3.70068
+640 3.78509
+645 3.78509
+645 3.87851
+650 3.87851
+650 3.97794
+655 3.97794
+655 4.0813
+660 4.0813
+660 4.18448
+665 4.18448
+665 4.29158
+670 4.29158
+670 4.40582
+675 4.40582
+675 4.5247
+680 4.5247
+680 4.64687
+685 4.64687
+685 4.76851
+690 4.76851
+690 4.88422
+695 4.88422
+695 4.99141
+700 4.99141
+700 7.29924
+705 7.29924
+705 6.97644
+710 6.97644
+710 6.94922
+715 6.94922
+715 6.98485
+720 6.98485
+720 7.04759
+725 7.04759
+725 7.12192
+730 7.12192
+730 7.20265
+735 7.20265
+735 7.28709
+740 7.28709
+740 7.37011
+745 7.37011
+745 7.45106
+750 7.45106
+750 7.53139
+755 7.53139
+755 7.61271
+760 7.61271
+760 7.69314
+765 7.69314
+765 7.77391
+770 7.77391
+770 7.85264
+775 7.85264
+775 7.92947
+780 7.92947
+780 8.00619
+785 8.00619
+785 8.08267
+790 8.08267
+790 8.16105
+795 8.16105
+795 8.23907
+800 8.23907
+800 11.6452
+805 11.6452
+805 11.2388
+810 11.2388
+810 11.2581
+815 11.2581
+815 11.3462
+820 11.3462
+820 11.4369
+825 11.4369
+825 11.5065
+830 11.5065
+830 11.5481
+835 11.5481
+835 11.5577
+840 11.5577
+840 11.5368
+845 11.5368
+845 11.4916
+850 11.4916
+850 11.4335
+855 11.4335
+855 11.3864
+860 11.3864
+860 11.3582
+865 11.3582
+865 11.3621
+870 11.3621
+870 11.3969
+875 11.3969
+875 11.4592
+880 11.4592
+880 11.5421
+885 11.5421
+885 11.6389
+890 11.6389
+890 11.74
+895 11.74
+895 11.8348
+900 11.8348
+900 11.9115
+905 11.9115
+905 11.9656
+910 11.9656
+910 11.9966
+915 11.9966
+915 12.0096
+920 12.0096
+920 12.0155
+925 12.0155
+925 12.0238
+930 12.0238
+930 12.0404
+935 12.0404
+935 12.0692
+940 12.0692
+940 12.1095
+945 12.1095
+945 12.1601
+950 12.1601
+950 12.222
+955 12.222
+955 12.2902
+960 12.2902
+960 12.3631
+965 12.3631
+965 12.4401
+970 12.4401
+970 12.5207
+975 12.5207
+975 12.6053
+980 12.6053
+980 12.6928
+985 12.6928
+985 12.7828
+990 12.7828
+990 12.8765
+995 12.8765
+995 12.9715
+1000 12.9715
+&
+@target G0.S5
+@type xy
+0 3.14881
+5 3.14881
+5 2.65685
+10 2.65685
+10 2.47656
+15 2.47656
+15 2.42312
+20 2.42312
+20 2.44172
+25 2.44172
+25 2.49412
+30 2.49412
+30 2.56008
+35 2.56008
+35 2.63254
+40 2.63254
+40 2.70261
+45 2.70261
+45 2.76651
+50 2.76651
+50 2.82265
+55 2.82265
+55 2.87
+60 2.87
+60 2.91323
+65 2.91323
+65 2.95178
+70 2.95178
+70 2.98685
+75 2.98685
+75 3.02039
+80 3.02039
+80 3.05152
+85 3.05152
+85 3.07852
+90 3.07852
+90 3.10436
+95 3.10436
+95 3.13027
+100 3.13027
+100 0
+105 0
+105 0
+110 0
+110 0
+115 0
+115 0
+120 0
+120 0
+125 0
+125 0
+130 0
+130 0
+135 0
+135 0.055494
+140 0.055494
+140 0.85456
+145 0.85456
+145 2.01598
+150 2.01598
+150 3.62577
+155 3.62577
+155 5.35279
+160 5.35279
+160 7.39972
+165 7.39972
+165 9.52814
+170 9.52814
+170 11.7883
+175 11.7883
+175 14.5576
+180 14.5576
+180 17.3877
+185 17.3877
+185 20.2223
+190 20.2223
+190 22.7731
+195 22.7731
+195 24.8737
+200 24.8737
+200 2.08886
+205 2.08886
+205 3.98456
+210 3.98456
+210 5.16645
+215 5.16645
+215 6.06321
+220 6.06321
+220 6.79656
+225 6.79656
+225 7.41014
+230 7.41014
+230 7.96233
+235 7.96233
+235 8.49581
+240 8.49581
+240 9.02411
+245 9.02411
+245 9.55365
+250 9.55365
+250 10.0599
+255 10.0599
+255 10.5395
+260 10.5395
+260 10.9909
+265 10.9909
+265 11.405
+270 11.405
+270 11.7972
+275 11.7972
+275 12.1423
+280 12.1423
+280 12.4348
+285 12.4348
+285 12.6681
+290 12.6681
+290 12.8536
+295 12.8536
+295 13.0001
+300 13.0001
+300 9.8565
+305 9.8565
+305 10.0896
+310 10.0896
+310 10.1702
+315 10.1702
+315 10.2019
+320 10.2019
+320 10.1984
+325 10.1984
+325 10.1722
+330 10.1722
+330 10.1242
+335 10.1242
+335 10.0671
+340 10.0671
+340 9.997
+345 9.997
+345 9.91844
+350 9.91844
+350 9.83598
+355 9.83598
+355 9.74615
+360 9.74615
+360 9.65504
+365 9.65504
+365 9.5701
+370 9.5701
+370 9.50762
+375 9.50762
+375 9.473
+380 9.473
+380 9.47525
+385 9.47525
+385 9.51298
+390 9.51298
+390 9.5841
+395 9.5841
+395 9.67312
+400 9.67312
+400 12.7921
+405 12.7921
+405 11.9159
+410 11.9159
+410 11.3966
+415 11.3966
+415 11.0262
+420 11.0262
+420 10.5894
+425 10.5894
+425 10.3272
+430 10.3272
+430 10.1618
+435 10.1618
+435 10.059
+440 10.059
+440 9.9941
+445 9.9941
+445 9.99367
+450 9.99367
+450 10.0663
+455 10.0663
+455 10.2244
+460 10.2244
+460 10.4676
+465 10.4676
+465 10.7927
+470 10.7927
+470 11.1992
+475 11.1992
+475 11.6722
+480 11.6722
+480 12.1757
+485 12.1757
+485 12.6615
+490 12.6615
+490 13.0022
+495 13.0022
+495 13.2269
+500 13.2269
+500 20.9641
+505 20.9641
+505 20.0013
+510 20.0013
+510 19.5756
+515 19.5756
+515 19.423
+520 19.423
+520 19.3265
+525 19.3265
+525 19.1605
+530 19.1605
+530 18.967
+535 18.967
+535 18.8242
+540 18.8242
+540 18.7428
+545 18.7428
+545 18.6782
+550 18.6782
+550 18.6262
+555 18.6262
+555 18.5889
+560 18.5889
+560 18.5606
+565 18.5606
+565 18.5837
+570 18.5837
+570 18.6582
+575 18.6582
+575 18.8105
+580 18.8105
+580 18.9916
+585 18.9916
+585 19.2263
+590 19.2263
+590 19.4878
+595 19.4878
+595 19.766
+600 19.766
+600 28.857
+605 28.857
+605 28.3739
+610 28.3739
+610 28.6095
+615 28.6095
+615 29.0106
+620 29.0106
+620 29.4795
+625 29.4795
+625 30.0344
+630 30.0344
+630 30.7497
+635 30.7497
+635 31.4829
+640 31.4829
+640 32.2299
+645 32.2299
+645 32.95
+650 32.95
+650 33.6334
+655 33.6334
+655 34.3047
+660 34.3047
+660 34.9377
+665 34.9377
+665 35.5401
+670 35.5401
+670 36.1222
+675 36.1222
+675 36.6906
+680 36.6906
+680 37.2462
+685 37.2462
+685 37.8046
+690 37.8046
+690 38.3747
+695 38.3747
+695 38.9286
+700 38.9286
+700 78.2269
+705 78.2269
+705 76.396
+710 76.396
+710 76.5756
+715 76.5756
+715 77.03
+720 77.03
+720 77.57
+725 77.57
+725 78.1384
+730 78.1384
+730 78.7068
+735 78.7068
+735 79.2586
+740 79.2586
+740 79.7916
+745 79.7916
+745 80.3151
+750 80.3151
+750 80.8153
+755 80.8153
+755 81.296
+760 81.296
+760 81.7764
+765 81.7764
+765 82.3097
+770 82.3097
+770 82.8891
+775 82.8891
+775 83.5038
+780 83.5038
+780 84.1372
+785 84.1372
+785 84.7668
+790 84.7668
+790 85.382
+795 85.382
+795 85.9939
+800 85.9939
+800 138.752
+805 138.752
+805 140.732
+810 140.732
+810 144.793
+815 144.793
+815 148.839
+820 148.839
+820 152.664
+825 152.664
+825 156.424
+830 156.424
+830 159.902
+835 159.902
+835 163.063
+840 163.063
+840 165.845
+845 165.845
+845 168.172
+850 168.172
+850 170.055
+855 170.055
+855 171.629
+860 171.629
+860 172.971
+865 172.971
+865 174.116
+870 174.116
+870 175.036
+875 175.036
+875 175.796
+880 175.796
+880 176.482
+885 176.482
+885 177.161
+890 177.161
+890 177.888
+895 177.888
+895 178.614
+900 178.614
+900 181.375
+905 181.375
+905 182.027
+910 182.027
+910 182.71
+915 182.71
+915 183.393
+920 183.393
+920 184.072
+925 184.072
+925 184.747
+930 184.747
+930 185.454
+935 185.454
+935 186.167
+940 186.167
+940 186.889
+945 186.889
+945 187.641
+950 187.641
+950 188.411
+955 188.411
+955 189.182
+960 189.182
+960 189.954
+965 189.954
+965 190.741
+970 190.741
+970 191.552
+975 191.552
+975 192.389
+980 192.389
+980 193.264
+985 193.264
+985 194.155
+990 194.155
+990 195.046
+995 195.046
+995 195.936
+1000 195.936
+&
+@target G0.S6
+@type xy
+0 2.1112
+5 2.1112
+5 1.96524
+10 1.96524
+10 1.9302
+15 1.9302
+15 1.92934
+20 1.92934
+20 1.94754
+25 1.94754
+25 1.97623
+30 1.97623
+30 2.00989
+35 2.00989
+35 2.04445
+40 2.04445
+40 2.07983
+45 2.07983
+45 2.11171
+50 2.11171
+50 2.14084
+55 2.14084
+55 2.167
+60 2.167
+60 2.19242
+65 2.19242
+65 2.21832
+70 2.21832
+70 2.24327
+75 2.24327
+75 2.26693
+80 2.26693
+80 2.28827
+85 2.28827
+85 2.30692
+90 2.30692
+90 2.32465
+95 2.32465
+95 2.3415
+100 2.3415
+100 2.37558
+105 2.37558
+105 2.41128
+110 2.41128
+110 2.44498
+115 2.44498
+115 2.47584
+120 2.47584
+120 2.50625
+125 2.50625
+125 2.53479
+130 2.53479
+130 2.56476
+135 2.56476
+135 2.59607
+140 2.59607
+140 2.63158
+145 2.63158
+145 2.67436
+150 2.67436
+150 2.72772
+155 2.72772
+155 2.79633
+160 2.79633
+160 2.88721
+165 2.88721
+165 3.00816
+170 3.00816
+170 3.16746
+175 3.16746
+175 3.37702
+180 3.37702
+180 3.64756
+185 3.64756
+185 3.96143
+190 3.96143
+190 4.31194
+195 4.31194
+195 4.70553
+200 4.70553
+200 4.29888
+205 4.29888
+205 4.71406
+210 4.71406
+210 5.07603
+215 5.07603
+215 5.38093
+220 5.38093
+220 5.62733
+225 5.62733
+225 5.83397
+230 5.83397
+230 5.9844
+235 5.9844
+235 6.10234
+240 6.10234
+240 6.20789
+245 6.20789
+245 6.28708
+250 6.28708
+250 6.34834
+255 6.34834
+255 6.38991
+260 6.38991
+260 6.41201
+265 6.41201
+265 6.41812
+270 6.41812
+270 6.41528
+275 6.41528
+275 6.40806
+280 6.40806
+280 6.4035
+285 6.4035
+285 6.40774
+290 6.40774
+290 6.42705
+295 6.42705
+295 6.46688
+300 6.46688
+300 0.089467
+305 0.089467
+305 0.241686
+310 0.241686
+310 0.331879
+315 0.331879
+315 0.428537
+320 0.428537
+320 0.542973
+325 0.542973
+325 0.689683
+330 0.689683
+330 0.876522
+335 0.876522
+335 1.11834
+340 1.11834
+340 1.44156
+345 1.44156
+345 1.85862
+350 1.85862
+350 2.3962
+355 2.3962
+355 3.13659
+360 3.13659
+360 4.17073
+365 4.17073
+365 5.5713
+370 5.5713
+370 6.74152
+375 6.74152
+375 7.70085
+380 7.70085
+380 8.56099
+385 8.56099
+385 9.5458
+390 9.5458
+390 10.5008
+395 10.5008
+395 11.5972
+400 11.5972
+400 6.42574
+405 6.42574
+405 7.43317
+410 7.43317
+410 8.23084
+415 8.23084
+415 8.92389
+420 8.92389
+420 9.59055
+425 9.59055
+425 10.3048
+430 10.3048
+430 11.0189
+435 11.0189
+435 11.6895
+440 11.6895
+440 12.3055
+445 12.3055
+445 12.8899
+450 12.8899
+450 13.4538
+455 13.4538
+455 14.0338
+460 14.0338
+460 14.568
+465 14.568
+465 15.0609
+470 15.0609
+470 15.5133
+475 15.5133
+475 15.9258
+480 15.9258
+480 16.3093
+485 16.3093
+485 16.6907
+490 16.6907
+490 17.0647
+495 17.0647
+495 17.4312
+500 17.4312
+500 19.8202
+505 19.8202
+505 20.0677
+510 20.0677
+510 20.4139
+515 20.4139
+515 20.8131
+520 20.8131
+520 21.224
+525 21.224
+525 21.6378
+530 21.6378
+530 22.0639
+535 22.0639
+535 22.5061
+540 22.5061
+540 22.9611
+545 22.9611
+545 23.418
+550 23.418
+550 23.8841
+555 23.8841
+555 24.3522
+560 24.3522
+560 24.8206
+565 24.8206
+565 25.2768
+570 25.2768
+570 25.7228
+575 25.7228
+575 26.1514
+580 26.1514
+580 26.5565
+585 26.5565
+585 26.9447
+590 26.9447
+590 27.3194
+595 27.3194
+595 27.6823
+600 27.6823
+600 46.9559
+605 46.9559
+605 46.6503
+610 46.6503
+610 46.9039
+615 46.9039
+615 47.2795
+620 47.2795
+620 47.7283
+625 47.7283
+625 48.2443
+630 48.2443
+630 48.8014
+635 48.8014
+635 49.3809
+640 49.3809
+640 50.0152
+645 50.0152
+645 50.7137
+650 50.7137
+650 51.4348
+655 51.4348
+655 52.1394
+660 52.1394
+660 52.972
+665 52.972
+665 54.1252
+670 54.1252
+670 55.4361
+675 55.4361
+675 56.7013
+680 56.7013
+680 57.9127
+685 57.9127
+685 59.0595
+690 59.0595
+690 59.8909
+695 59.8909
+695 60.4823
+700 60.4823
+700 106.636
+705 106.636
+705 106.054
+710 106.054
+710 106.716
+715 106.716
+715 107.504
+720 107.504
+720 108.344
+725 108.344
+725 109.159
+730 109.159
+730 109.9
+735 109.9
+735 110.583
+740 110.583
+740 111.211
+745 111.211
+745 111.84
+750 111.84
+750 112.591
+755 112.591
+755 113.29
+760 113.29
+760 113.864
+765 113.864
+765 114.162
+770 114.162
+770 114.33
+775 114.33
+775 114.426
+780 114.426
+780 114.472
+785 114.472
+785 114.484
+790 114.484
+790 114.523
+795 114.523
+795 114.563
+800 114.563
+800 127.311
+805 127.311
+805 126.978
+810 126.978
+810 126.906
+815 126.906
+815 126.919
+820 126.919
+820 127.004
+825 127.004
+825 127.167
+830 127.167
+830 127.419
+835 127.419
+835 127.747
+840 127.747
+840 128.127
+845 128.127
+845 128.575
+850 128.575
+850 129.04
+855 129.04
+855 129.491
+860 129.491
+860 129.919
+865 129.919
+865 130.324
+870 130.324
+870 130.718
+875 130.718
+875 131.105
+880 131.105
+880 131.506
+885 131.506
+885 131.89
+890 131.89
+890 132.241
+895 132.241
+895 132.599
+900 132.599
+900 132.968
+905 132.968
+905 133.362
+910 133.362
+910 133.778
+915 133.778
+915 134.216
+920 134.216
+920 134.663
+925 134.663
+925 135.104
+930 135.104
+930 135.548
+935 135.548
+935 136.007
+940 136.007
+940 136.486
+945 136.486
+945 136.972
+950 136.972
+950 137.469
+955 137.469
+955 138.03
+960 138.03
+960 138.563
+965 138.563
+965 139.077
+970 139.077
+970 139.58
+975 139.58
+975 140.073
+980 140.073
+980 140.552
+985 140.552
+985 141.015
+990 141.015
+990 141.462
+995 141.462
+995 141.788
+1000 141.788
+&
+@target G0.S7
+@type xy
+0 0
+5 0
+5 0
+10 0
+10 0
+15 0
+15 0
+20 0
+20 0
+25 0
+25 0
+30 0
+30 0
+35 0
+35 0
+40 0
+40 0
+45 0
+45 0
+50 0
+50 0
+55 0
+55 0
+60 0
+60 0
+65 0
+65 0
+70 0
+70 0
+75 0
+75 0
+80 0
+80 0
+85 0
+85 0
+90 0
+90 0
+95 0
+95 0
+100 0
+100 0
+105 0
+105 0
+110 0
+110 0
+115 0
+115 0
+120 0
+120 0
+125 0
+125 0
+130 0
+130 0
+135 0
+135 0
+140 0
+140 0
+145 0
+145 0
+150 0
+150 0
+155 0
+155 0
+160 0
+160 0
+165 0
+165 0
+170 0
+170 0
+175 0
+175 0
+180 0
+180 0
+185 0
+185 0.026371
+190 0.026371
+190 0.136977
+195 0.136977
+195 0.256798
+200 0.256798
+200 0.397893
+205 0.397893
+205 0.557165
+210 0.557165
+210 0.779689
+215 0.779689
+215 1.04789
+220 1.04789
+220 1.31776
+225 1.31776
+225 1.6021
+230 1.6021
+230 1.93544
+235 1.93544
+235 2.33274
+240 2.33274
+240 2.8102
+245 2.8102
+245 3.15992
+250 3.15992
+250 3.45634
+255 3.45634
+255 3.73166
+260 3.73166
+260 3.96222
+265 3.96222
+265 4.1595
+270 4.1595
+270 4.32962
+275 4.32962
+275 4.46593
+280 4.46593
+280 4.58514
+285 4.58514
+285 4.70601
+290 4.70601
+290 4.81466
+295 4.81466
+295 4.90929
+300 4.90929
+300 4.96474
+305 4.96474
+305 4.97761
+310 4.97761
+310 4.94219
+315 4.94219
+315 4.86317
+320 4.86317
+320 4.75089
+325 4.75089
+325 4.61189
+330 4.61189
+330 4.46218
+335 4.46218
+335 4.33816
+340 4.33816
+340 4.21138
+345 4.21138
+345 4.08256
+350 4.08256
+350 3.95763
+355 3.95763
+355 3.83981
+360 3.83981
+360 3.73054
+365 3.73054
+365 3.64417
+370 3.64417
+370 3.56526
+375 3.56526
+375 3.4879
+380 3.4879
+380 3.4137
+385 3.4137
+385 3.34568
+390 3.34568
+390 3.28652
+395 3.28652
+395 3.24723
+400 3.24723
+400 2.07689
+405 2.07689
+405 2.1001
+410 2.1001
+410 2.09893
+415 2.09893
+415 2.0943
+420 2.0943
+420 2.09253
+425 2.09253
+425 2.10444
+430 2.10444
+430 2.1401
+435 2.1401
+435 2.19405
+440 2.19405
+440 2.27129
+445 2.27129
+445 2.38142
+450 2.38142
+450 2.49813
+455 2.49813
+455 2.60183
+460 2.60183
+460 2.69992
+465 2.69992
+465 2.7954
+470 2.7954
+470 2.8894
+475 2.8894
+475 2.98333
+480 2.98333
+480 3.07272
+485 3.07272
+485 3.15695
+490 3.15695
+490 3.23683
+495 3.23683
+495 3.31978
+500 3.31978
+500 2.11221
+505 2.11221
+505 2.19135
+510 2.19135
+510 2.24174
+515 2.24174
+515 2.28586
+520 2.28586
+520 2.315
+525 2.315
+525 2.34268
+530 2.34268
+530 2.37101
+535 2.37101
+535 2.37551
+540 2.37551
+540 2.34709
+545 2.34709
+545 2.32973
+550 2.32973
+550 2.33193
+555 2.33193
+555 2.35353
+560 2.35353
+560 2.38633
+565 2.38633
+565 2.42507
+570 2.42507
+570 2.46592
+575 2.46592
+575 2.50613
+580 2.50613
+580 2.54403
+585 2.54403
+585 2.57767
+590 2.57767
+590 2.6086
+595 2.6086
+595 2.63644
+600 2.63644
+600 1.65748
+605 1.65748
+605 1.69408
+610 1.69408
+610 1.71
+615 1.71
+615 1.72429
+620 1.72429
+620 1.73789
+625 1.73789
+625 1.75128
+630 1.75128
+630 1.76487
+635 1.76487
+635 1.77894
+640 1.77894
+640 1.79354
+645 1.79354
+645 1.80879
+650 1.80879
+650 1.82494
+655 1.82494
+655 1.84214
+660 1.84214
+660 1.86061
+665 1.86061
+665 1.88066
+670 1.88066
+670 1.90256
+675 1.90256
+675 1.92644
+680 1.92644
+680 1.9521
+685 1.9521
+685 1.9787
+690 1.9787
+690 2.00605
+695 2.00605
+695 2.0365
+700 2.0365
+700 1.37102
+705 1.37102
+705 1.41374
+710 1.41374
+710 1.44185
+715 1.44185
+715 1.47113
+720 1.47113
+720 1.50279
+725 1.50279
+725 1.53763
+730 1.53763
+730 1.57322
+735 1.57322
+735 1.60711
+740 1.60711
+740 1.63883
+745 1.63883
+745 1.67105
+750 1.67105
+750 1.70496
+755 1.70496
+755 1.743
+760 1.743
+760 1.78667
+765 1.78667
+765 1.82775
+770 1.82775
+770 1.87438
+775 1.87438
+775 1.93425
+780 1.93425
+780 2.00685
+785 2.00685
+785 2.0984
+790 2.0984
+790 2.20154
+795 2.20154
+795 2.31558
+800 2.31558
+800 9.24966
+805 9.24966
+805 9.82954
+810 9.82954
+810 10.4336
+815 10.4336
+815 11.0408
+820 11.0408
+820 11.6171
+825 11.6171
+825 12.1865
+830 12.1865
+830 12.7151
+835 12.7151
+835 13.1968
+840 13.1968
+840 13.6317
+845 13.6317
+845 14.0308
+850 14.0308
+850 14.3958
+855 14.3958
+855 14.7281
+860 14.7281
+860 15.0395
+865 15.0395
+865 15.3467
+870 15.3467
+870 15.6406
+875 15.6406
+875 15.9577
+880 15.9577
+880 16.2535
+885 16.2535
+885 16.5361
+890 16.5361
+890 16.8067
+895 16.8067
+895 17.0656
+900 17.0656
+900 17.3129
+905 17.3129
+905 17.5574
+910 17.5574
+910 17.7916
+915 17.7916
+915 18.017
+920 18.017
+920 18.234
+925 18.234
+925 18.442
+930 18.442
+930 18.6402
+935 18.6402
+935 18.8278
+940 18.8278
+940 19.01
+945 19.01
+945 19.1884
+950 19.1884
+950 19.3618
+955 19.3618
+955 19.5398
+960 19.5398
+960 19.7171
+965 19.7171
+965 19.8909
+970 19.8909
+970 20.0615
+975 20.0615
+975 20.2309
+980 20.2309
+980 20.3987
+985 20.3987
+985 20.5623
+990 20.5623
+990 20.7219
+995 20.7219
+995 20.8784
+1000 20.8784
+&
